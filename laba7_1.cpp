@@ -7,8 +7,8 @@ int main() {
 
 	FILE* source, * target;
 	char str[100], new_str[100];
-	char name1[] = "C:\\Users\\son of chemistry\\OneDrive - ФГБОУ ВО ПГУТИ\\Программирование\\Лаба7\\laba7_1\\Files\\text.txt";
-	char name2[] = "C:\\Users\\son of chemistry\\OneDrive - ФГБОУ ВО ПГУТИ\\Программирование\\Лаба7\\laba7_1\\Files\\palindroms.txt";
+	char name1[] = "C:\\Users\\son of chemistry\\OneDrive - Г”ГѓГЃГЋГ“ Г‚ГЋ ГЏГѓГ“Г’Г€\\ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГҐ\\Г‹Г ГЎГ 7\\laba7_1\\Files\\text.txt";
+	char name2[] = "C:\\Users\\son of chemistry\\OneDrive - Г”ГѓГЃГЋГ“ Г‚ГЋ ГЏГѓГ“Г’Г€\\ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГҐ\\Г‹Г ГЎГ 7\\laba7_1\\Files\\palindroms.txt";
 	source = fopen(name1, "w");
 	int count = 0;
 	if (source != NULL) {
